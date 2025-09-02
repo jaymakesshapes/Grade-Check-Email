@@ -23,7 +23,7 @@ date = str(now.strftime("%m-%d"))
 #Names the subject with todays date
 emailSubject=("Weekly Grade Check " + date)
 #Names the file with the date in the image folder (Make sure you have a folder named gradeCheckImages)
-fileName = os.path.join("C:/Users/axthelm.2/OneDrive - Dayton Regional STEM School/Courses 2025-2026/Professionism/gradeCheckImages", date + ".png")
+fileName = os.path.join("filepathtofolder", date + ".png")
 #Saves the file to where you set in fileName
 image.save(fileName)
 
@@ -45,3 +45,4 @@ time.sleep(1)
 #opens website
 webbrowser.get('windows-default').open(emailURL)
 #Check your drafts and it should be in there where you can check that everything looks right and then you can send it
+
