@@ -6,4 +6,6 @@ Then it opens your grades and takes a screenshot.
 It names the picture the date and saves it to a folder called gradeCheckImages.
 Then it opens the outlook app (The one on desktop not the website one) and creates a draft with all the info you put in the code.
 Then it opens the website where you can find the email draft in your drafts.
-You can then check the content before you send it. (make sure you click on the emails so they process that they are the emails.
+You can then check the content before you send it. (make sure you click on the emails so they process that they are the emails.)
+
+Read through the code and change what needs to be changed. There should be comments on everything you need to change and what it needs to be.
